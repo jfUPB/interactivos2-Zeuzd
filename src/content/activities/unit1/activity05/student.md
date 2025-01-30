@@ -1,5 +1,5 @@
 #### Codigo 1
-```
+``` js
 var tileCount = 20;
 
 var moduleColor;
@@ -37,7 +37,7 @@ function keyReleased() {
 
 Este codigo lo que hace es crear una malla la cual cambia de tamaño con respecto a la distancia del mouse respecto a cada rectangulo.
 
-```
+``` js
 var tileCount = 20;
 
 var moduleAlpha = 180;
@@ -83,7 +83,7 @@ Esto se puede dar en el entretenimiento digital para darle vida a las obras y pa
 
 #### Codigo 2
 
-```
+``` js
 var tileCountX = 50;
 var tileCountY = 10;
 
@@ -243,7 +243,7 @@ function keyPressed() {
 
 Este codigo lo que hace es agarrar la posicion del mouse y dependiendo de este, agarras los tiles y expandir el numero de estos hacia los lados y de arriba para abajo.
 
-```
+``` js
 var tileCountX = 50;
 var tileCountY = 10;
 
@@ -317,7 +317,7 @@ Este código podría ser utilizado en el entretenimiento digital para crear expe
 
 #### Codigo 3
 
-```
+``` js
 function setup() {
   createCanvas(400, 400);
   colorMode(HSB);
@@ -369,7 +369,7 @@ function draw() {
 
 Este código tiene dos ojos que siguen la direccion del mouse.
 
-```
+``` js
 let blinkTimer = 0; // **Cambio 1**: Temporizador para parpadeo aleatorio
 
 function setup() {
