@@ -1,30 +1,30 @@
-### 1. Partido Deportivo en Vivo
+### 1. Concierto de musica en vivo
 
-Inputs: Equipos o jugadores, instalaciones deportivas (campo, pista, estadio), arbitros y staff de apoyo, equipamiento deportivo y tecnología (cámaras, cronómetros).
+Inputs: Los gritos de la gente.
 
-Process: Desarrollo del partido con jugadas, estrategias y decisiones arbitrales, interacción en tiempo real: cánticos, animaciones y reacciones de la audiencia.
+Process: Mediante un programa, se mide el nivel de desibeles al que la gente esta gritando.
 
-Outputs: Resultado final del encuentro.
+Outputs: las luces aumentan o disminuyen de intensidad.
 
-Storytelling: Atraves de todo el encuentro la audencia se va emocionando de todo lo que va pasando y por la expectativa de que va a pasar, al final saben que paso y se emocionan o entristecen dependiendo del resultado.
+Storytelling: Atraves del encuentro las personas van gritando dependiendo si estas emocionadas o no, y se une con la actividad para que cada vez que griten sientan que estan mas inmersos en la actividad.
 
-### 2. Concierto de Música en Vivo
+### 2. Partido de futbol
 
-Inputs: Artista y banda, instrumentos y equipo de sonido/iluminación, escenario y locación.
+Inputs: Los saltos de la gente.
 
-Process: Coordinación técnica, ejecución del performance musical, interacción en tiempo real entre artista y público.
+Process: Atraves de programas que van conectados a placas de movimiento debajo de las gradas, mediante las cuales se mide en una escala de intensidad cuanto esta saltando la gente.
 
-Outputs: Emoción y energía compartida entre el público, contenido digital, impacto en ventas de merchandising y entradas para futuros eventos.
+Outputs: Sube la musica de las gradas y si llegan a cierto nivel de intensidad, se les da un premio a los hinchas.
 
-Storytelling: Mediante todo el proceso la audiencia se emociona de ver y escuchar sus canciones favoritas de un artista que les gusta, el poder interactuar con el y verlo en vivo genera mas ventas y mas difusion en redes.
+Storytelling: Mediante el proceso de alentar al equipo saltando y cantando, las personas se sienten aun mas motivadas ya que si llegan a cierto nivel, se les da un premio, es un gana y gana para todos.
 
 ### 3. Torneo de E-Sports en Vivo
 
-Inputs: Equipos o jugadores profesionales y aficionados, juegos y plataformas de competencia.
+Inputs: El tiempo que se esta viendo el torneo.
 
-Process: Organización de rondas y partidas en tiempo real, comentarios en vivo y análisis de jugadas.
+Process: Mediante un programa se sigue el tiempo de cada usuario viendo el evento.
 
-Outputs: Resultados y clasificaciones del torneo, emoción y engagement de la comunidad gamer.
+Outputs: Al llegar a cierta cantidad de tiempo visto, se le da un premio dentro de el juego.
 
-Storytelling: Una batalla digital épica, donde cada jugada cuenta la historia de estrategia y pasión gamer.
+Storytelling: Las personas al ver los eventos que les gustan, ellos sienten que estan haciendo algo bien ya que al final van a tener un premio, mientras disfrutan de la mas alta competencia del juego que les gusta.
 
