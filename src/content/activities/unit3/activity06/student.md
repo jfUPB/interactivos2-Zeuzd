@@ -196,5 +196,31 @@ function handleFile(file) {
     }
 }
 ```
+¿Cómo se comunican los clientes con el servidor?
 
+RT// A través de WebSockets con Socket.IO, enviando y recibiendo mensajes en tiempo real.
+
+¿Cómo se comunican los clientes entre sí?
+
+RT// Indirectamente, a través del servidor, que retransmite los mensajes con socket.broadcast.emit().
+
+¿Qué tipo de mensajes se envían?
+
+RT// Coordenadas táctiles (JSON con x, y) y imágenes en Base64.
+
+¿Qué tipo de datos se envían?
+
+RT// Números (coordenadas x, y) y cadenas de texto (imágenes codificadas en Base64).
+
+¿Qué tipo de eventos se generan?
+
+RT// connect, message, image, disconnect, connect_error.
+
+¿Cómo es el flujo de datos entre los clientes y el servidor?
+
+RT// Cliente envía datos → Servidor los recibe → Servidor los retransmite → Otro cliente los recibe.
+
+¿Cómo es el flujo de datos entre los clientes?
+
+RT// Cliente A envía datos al servidor → Servidor reenvía a Cliente B → Cliente B recibe y procesa.
 
