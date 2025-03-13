@@ -29,15 +29,24 @@ let video;
 let prevFrame;
 let motionAmount = 0;
 let saturationLevel = 0;
+let liveMedia;
+let incomingVideo;
 
 function setup() {
   createCanvas(640, 480);
+  
+  // Captura de video
   video = createCapture(VIDEO);
   video.size(640, 480);
   video.hide();
   
+  // Imagen anterior para comparación
   prevFrame = createImage(640, 480);
-  colorMode(HSB, 360, 100, 100); // Usamos HSB para manipular saturación
+  colorMode(HSB, 360, 100, 100); // Para manipular saturación
+
+  // Inicializar p5LiveMedia para enviar el video procesado
+  liveMedia = new p5LiveMedia(this, "CAPTURE", video, "sala-movimiento");
+  liveMedia.on("stream", gotStream);
 }
 
 function draw() {
@@ -63,10 +72,11 @@ function draw() {
   // Dibujar el video con la saturación ajustada
   drawWithSaturation(video, saturationLevel);
 
-  // Guardar el fotograma actual como el anterior para la próxima iteración
+  // Guardar el fotograma actual como el anterior
   prevFrame.copy(video, 0, 0, video.width, video.height, 0, 0, video.width, video.height);
 }
 
+// Función para ajustar la saturación del video
 function drawWithSaturation(source, sat) {
   source.loadPixels();
   
@@ -89,4 +99,13 @@ function drawWithSaturation(source, sat) {
   source.updatePixels();
   image(source, 0, 0, width, height);
 }
+
+// Cuando recibimos un stream de otro usuario
+function gotStream(stream) {
+  incomingVideo = createVideo(stream);
+  incomingVideo.size(320, 240);
+  incomingVideo.position(650, 50);
+  incomingVideo.show();
+}
+
 ```
