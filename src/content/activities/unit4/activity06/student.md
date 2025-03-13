@@ -1,0 +1,1 @@
+Siento que la unica parte que mejoraria de la unidad es que el profe nos de la introduccion a p5LiveMedia asi como lo hizo en la anterior unidad con los servidores remotos, y ya con las bases ahi si nos dejara a nosotros experimentar por nuestra cuenta.
