@@ -1,7 +1,22 @@
 Me invente un codigo el cual captura la imagen y compara el fotograma nuevo con el anterior para detectar movimiento y entre mas movimiento haya, mas va a subir la saturacion de los colores, la imagen es compartida en una sala a la cual se pueden conectar varios dispositivos.
 
+Este código usa `p5LiveMedia` para compartir datos de saturación entre usuarios en la sala `"saturation-room"`. Cada usuario analiza el movimiento en su cámara y calcula un nivel de saturación. Si la saturación cambia significativamente, se envía a los demás con `liveMedia.send()`. Cuando un usuario recibe datos de otro, `receiveSaturation()` actualiza su propia saturación. Así, todos ven efectos similares en función del movimiento compartido.
+
+La aplicacion en mi opinion sirve mucho para el proyecto de curso en el sentido de trabajo colaborativo para poder hacer aplicaciones interactivas con mas personas en tiempo real.
+
+Tutorial:
+1. Abre la aplicación en tu navegador.
+2. Permite el acceso a la cámara cuando el navegador lo solicite.
+3. Mira la imagen de tu cámara en la pantalla, que cambiará según tu movimiento.
+4. Muévete frente a la cámara y verás que la imagen se vuelve más saturada.
+5. Si te quedas quieto, la imagen volverá a su color normal.
+6. Comparte el enlace con otra persona para sincronizar los efectos en tiempo real.
+7. Cuando cualquiera se mueva, el cambio se reflejará en ambas pantallas.
+8. Experimenta moviendo objetos o cambiando la iluminación para ver distintos efectos.
+9. Si la cámara no funciona, revisa los permisos en la configuración del navegador.
+
 ## .HTML
-```
+``` html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -24,7 +39,8 @@ Me invente un codigo el cual captura la imagen y compara el fotograma nuevo con 
 ```
 
 ## .JS
-```let video;
+``` js
+let video;
 let prevFrame;
 let motionAmount = 0;
 let saturationLevel = 0;
