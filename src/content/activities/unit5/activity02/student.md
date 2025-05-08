@@ -1,0 +1,3 @@
+En este evento en vivo, las dos aficiones en el estadio competirán para demostrar quién apoya más a su equipo mediante el volumen de sus cánticos y gritos. Un sistema de micrófonos captará el sonido desde distintos puntos del estadio, y un programa en p5.js con p5LiveMedia medirá los niveles de ruido en tiempo real.
+
+El marcador de ruido se mostrará en una pantalla gigante en el estadio o en la transmisión, con barras dinámicas que representarán la intensidad del sonido de cada afición. A lo largo del partido, se otorgarán puntos de afición, y al final se anunciará qué hinchada ganó la batalla del ruido.
