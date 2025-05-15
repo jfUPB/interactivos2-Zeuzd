@@ -1,0 +1,1 @@
+Programar música en tiempo real es una forma creativa de improvisar y experimentar con sonido a través de código. En Medellín, esto podría impulsar la escena electrónica, abrir espacios en festivales y conectar arte con tecnología. También serviría para educación musical y experiencias inmersivas. Es una oportunidad para mezclar creatividad y programación en la ciudad.
